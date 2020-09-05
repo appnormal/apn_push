@@ -1,0 +1,19 @@
+name: apn_push
+description: A standardized way of implementing push within Appnormal
+version: 1.0.0
+homepage: https://appnormal.com
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+  flutter: ">=1.17.0 <2.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  device_info: ^0.4.2+7
+  flutter_udid: ^1.0.1
+  firebase_messaging: ^7.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
